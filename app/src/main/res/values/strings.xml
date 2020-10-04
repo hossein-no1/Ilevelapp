@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pneumatic</string>
+    <string name="shopName"><b>BMW</b></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="invalidCharacter">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#^*+\ضصثقفغعهخحجچپگکمنتالبیسشظطزرذدئو_</string>
+
+
+    <!--main activity-->
+    <string name="no_connect">No connecting.Please try agian...</string>
+
+    <!--main activity-->
+    <string name="restart_app">Please restart app</string>
+    <string name="nothing_yet">Nothing yet</string>
+    <string name="set_userName">Please set user name</string>
+    <string name="set_password">Please set password</string>
+    <string name="short_password">Your password is very short</string>
+    <string name="short_userName">Your user name is very short</string>
+
+</resources>

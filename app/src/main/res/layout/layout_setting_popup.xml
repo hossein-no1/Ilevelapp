@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/lin2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnResetPasswordSL"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:hint="Reset"
+            android:textColorHint="@color/black"
+            android:textSize="18sp"
+            />
+
+    <Button
+        android:id="@+id/btnSetPasswordSL"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:hint="Set"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_background_edt_lws"
+        >
+
+    <EditText
+        android:id="@+id/edtUserNameSL"
+        android:layout_width="0dp"
+        android:layout_weight=".8"
+        android:layout_height="wrap_content"
+        android:digits="@string/invalidCharacter"
+        android:hint="User name"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        android:textSize="18sp"
+        android:maxLength="25"
+        android:backgroundTint="@color/black"
+        android:drawableLeft="@drawable/icon_user_name"
+        android:fontFamily="monospace"
+        />
+
+        <TextView
+            android:id="@+id/txtStatLenghUserNameSL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".15"
+            android:layout_marginLeft="10dp"
+            android:text="0/25"
+            android:textColor="@color/red"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_background_edt_lws"
+        android:layout_below="@id/lin1"
+        >
+
+        <EditText
+            android:id="@+id/edtPasswordSL"
+            android:layout_width="0dp"
+            android:layout_weight=".8"
+            android:layout_height="wrap_content"
+            android:digits="@string/invalidCharacter"
+            android:hint="Password"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/yellow"
+            android:textColorHint="@color/yellow"
+            android:textSize="18sp"
+            android:maxLength="50"
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/icon_password"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:id="@+id/txtStatLenghPasswordSL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".15"
+            android:layout_marginLeft="10dp"
+            android:text="0/50"
+            android:textColor="@color/red"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

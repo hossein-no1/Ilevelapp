@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemWifiMenuMainMA"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/icon_no_wifi"
+        />
+
+    <item
+        android:id="@+id/itemSettingMenuMainMA"
+        android:orderInCategory="100"
+        android:title="Setting" />
+
+    <item
+        android:id="@+id/itemAbutUsMenuMainMA"
+        android:orderInCategory="200"
+        android:title="About us" />
+
+    <item
+        android:id="@+id/itemExitMenuMainMA"
+        android:orderInCategory="200"
+        android:title="Exit" />
+
+
+
+</menu>
